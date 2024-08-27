@@ -15,7 +15,6 @@ export class FooterComponent implements OnInit {
 
   ngOnInit(): void {
     this.year = new Date().getFullYear();
-    //this.currentDateAndTime = this.datePipe.transform(new Date(), 'yyyy-MM-dd HH:mm:ss');
   }
 
 }
