@@ -1,12 +1,12 @@
 .nav a{
-	color: white;
-	font-size: 18px;
+	color: rgb(255, 255, 255);
+	font-size: 30px;
 }
 .nav a:hover{
-  color: #777777;
+  color: #4d8759;
 }
 
 .navbar-brand img {
-  padding-left: 25px;
-  max-width: 75px;
+  padding-left: 5px;
+  max-width: 300px;
 }

@@ -9,12 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
   public year: number | undefined;
+  public ref: string;
 
   constructor(private router: RouterModule) { }
 
 
   ngOnInit(): void {
     this.year = new Date().getFullYear();
+    this.ref = "https://powo.science.kew.org/";
   }
 
 }
